@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import StoreHeader from './StoreHeader';
 
 function AddStore() {
   return (
-    <div>AddStore</div>
+    <div>
+      <StoreHeader/>
+    </div>
   )
 }
 
