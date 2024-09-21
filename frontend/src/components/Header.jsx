@@ -1,4 +1,5 @@
 import React from 'react';
+import './Header.css'
 // import { BiWorld } from "react-icons/bi";
 import { FiMenu } from "react-icons/fi";
 import { AiOutlineUser } from "react-icons/ai";
@@ -13,7 +14,7 @@ import {
 
 function Header() {
   return (
-    <div className='flex justify-between items-center border-b pl-2'>
+    <div className='sticky-header flex justify-between items-center border-b pl-2'>
         {/*Left*/}
         <img src='/logo.png' width={150} height={100} />
         {/*Right*/}
