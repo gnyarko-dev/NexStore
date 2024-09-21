@@ -1,0 +1,58 @@
+{
+    "storeDetails": [
+        {
+            "label": "Store Name",
+            "name": "storeName",
+            "fieldType": "text",
+            "required": true,
+            "column": 2,
+            "icon": "FaStore"
+        },
+        {
+            "label": "Store Phone",
+            "name": "storePhone",
+            "fieldType": "number",
+            "required": true,
+            "column": 2,
+            "icon": "FaPhone"
+        },
+        {
+            "label": "Country",
+            "name": "country",
+            "fieldType": "text",
+            "required": true,
+            "column": 2,
+            "icon": "IoMdGlobe"
+        },
+        {
+            "label": "Region / State",
+            "name": "region",
+            "fieldType": "text",
+            "required": true,
+            "column": 2,
+            "icon": "FaCity"
+        },
+        {
+            "label": "City / Town",
+            "name": "city",
+            "fieldType": "text",
+            "required": true,
+            "column": 2,
+            "icon": "MdLocationCity"
+        },
+        {
+            "label": "Email",
+            "name": "email",
+            "fieldType": "text",
+            "column": 2,
+            "icon": "MdEmail"
+        },
+        {
+            "label": "Postal Code",
+            "name": "city",
+            "fieldType": "number",
+            "column": 2,
+            "icon": "GiPostOffice"
+        }
+    ]
+}
