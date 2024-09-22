@@ -10,6 +10,8 @@ import { Separator } from '@radix-ui/react-dropdown-menu';
 import { SelectSeparator } from '@/components/ui/select';
 import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
+import UploadImages from './components/UploadImages';
+import IconFields from './components/IconFields';
 
 function AddStore() {
 
@@ -44,7 +46,9 @@ function AddStore() {
               <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
                 {storeDetails.storeDetails.map((item,index)=>(
                   <div key={index}>
-                    <label className='text-sm'>{item?.label} {item.required&&<span className='text-red-500'>*</span>}</label>
+                    <label className='text-sm flex gap-2 items-center mb-1'>
+                      <IconFields icon={item?.icon} />
+                      {item?.label} {item.required&&<span className='text-red-500'>*</span>}</label>
                     {item.fieldType=='text'||item.fieldType=='number'?<InputField item={item} handleInputChange={handleInputChange} />
                     :item.fieldType=='dropdown'
                     ?<DropdownField item={item} handleInputChange={handleInputChange} />
@@ -61,7 +65,9 @@ function AddStore() {
               <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
                 {productDetails.productDetails.map((item,index)=>(
                   <div key={index}>
-                    <label className='text-sm'>{item?.label} {item.required&&<span className='text-red-500'>*</span>}</label>
+                    <label className='text-sm flex gap-2 items-center mb-1'>
+                      <IconFields icon={item?.icon} />
+                      {item?.label} {item.required&&<span className='text-red-500'>*</span>}</label>
                     {item.fieldType=='text'||item.fieldType=='number'?<InputField item={item} />
                     :item.fieldType=='textarea'
                     ?<Textarea item={item} placeholder='Tell us more about your store' handleInputChange={handleInputChange} />
@@ -71,7 +77,9 @@ function AddStore() {
               </div>
             </div>
 
+            <SelectSeparator className="my-6"/>
             {/* Store Image */}
+            <UploadImages/>
 
             <div className='mt-10 flex justify-end'>
               <Button type='submit' onClick={(e)=>onSubmit(e)} >Save</Button>
