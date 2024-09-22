@@ -53,6 +53,15 @@
             "fieldType": "number",
             "column": 2,
             "icon": "GiPostOffice"
+        },
+        {
+            "label": "Category",
+            "name": "category",
+            "fieldType": "dropdown",
+            "options": ["Pharmacy", "Grocery", "Salon", "Washing Bay", "Others"],
+            "required": true,
+            "column": 1,
+            "icon": "BiCategory"
         }
     ]
 }

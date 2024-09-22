@@ -1,0 +1,12 @@
+{
+    "productDetails": [
+        {
+            "label": "Service Description",
+            "name": "service",
+            "fieldType": "textarea",
+            "required": true,
+            "column": 2,
+            "icon": "FaStore"
+        }
+    ]
+}
