@@ -6,7 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './home'
 import Contact from './contact'
 import { ClerkProvider } from '@clerk/clerk-react'
-import AddStore from './Store'
+import AddStore from './Store/store'
 
 const router=createBrowserRouter([
   {
