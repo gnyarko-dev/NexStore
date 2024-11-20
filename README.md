@@ -15,7 +15,7 @@ NexStore is a platform designed to bridge the gap between consumers and local sh
 5. [Setup and Installation](#setup-and-installation)
 6. [User Stories](#user-stories)
 7. [Challenges and Solutions](#challenges-and-solutions)
-8. [How to Contribute](#how-to-contribute)
+8. [How to Contribute](#contribution-guidelines)
 9. [Future Scope](#future-scope)
 
 ---
