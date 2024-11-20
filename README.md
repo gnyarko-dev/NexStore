@@ -88,3 +88,15 @@ NexStore is a platform designed to bridge the gap between consumers and local sh
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-repo/nexstore.git
+
+## Contribution Guidelines
+
+We welcome contributions to NexStore! To contribute, follow these steps:
+
+1. **Fork the Repository**  
+   Click the **Fork** button at the top-right corner of this repository to create a copy under your GitHub account.
+
+2. **Clone Your Fork**  
+   Clone the forked repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/nexstore.git
